@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap');
+
+
+body{
+    font-family: 'Xanh Mono',monospace;
+    
+}
+
+header{
+    padding: 1rem;
+    font-weight: bold;
+}
+
+.container{
+    display: flex;
+ 
+}
+
+
+.container > h1{
+    font-weight: bolder;
+    font-size-adjust: 1.0;
+    
+}
+
+.container > p{overflow: hidden;
+}
+
+
+.container > img{
+    width: 40%;
+    height: 50%;
+    padding: 1rem;
+    margin: 50px;
+   float: left;
+   object-fit: contain;
+   margin-left: 2rem;
+   animation: example 2s infinite;
+  animation-direction: alternate;
+  
+   
+}
+
+
+#home-button{
+    background-color: black;
+    color: whitesmoke;
+    padding: 1rem;
+    
+}
+
+.fix-right{
+    align-items: center;
+    float: right;
+    margin: 70px;
+    padding: 1rem;
+    
+}
+
+footer{
+    text-align: center;
+    position: relative;
+    bottom: -80px;
+}
+
+@keyframes example {
+    0% {
+        transform: skewY(15deg);
+      }
+      100% {
+        transform: skewY(-15deg);
+      }
+    
+  }

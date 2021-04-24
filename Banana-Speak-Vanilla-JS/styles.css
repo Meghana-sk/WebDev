@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+body{
+  margin: 0 auto;
+  background-image: url(images/minion-clipart-minion-party-transparent.png);
+  background-size: contain;
+  overscroll-behavior: none;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: yellow;
+  font-family: 'Raleway', sans-serif;
+}
+
+.navigation {
+    color: #4361ee;
+    padding: 1rem;
+    font-size: 2.5rem;
+    font-weight: bolder;    
+  }
+
+  .hero {
+    padding: 2rem;
+  }
+
+.body-container{
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+textarea{
+    box-sizing: border-box;
+    display: block;
+    width: 85%;
+    min-height: 20vh;
+    margin: 2rem auto;
+    font-size: 1.25rem;
+    font-family:inherit;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    background-color:#dee2e6;
+    color: #4361ee;
+    border: none;
+}
+
+button{
+    background-color: #4361ee;
+    color: #f9c74f;
+    border-radius:0.8rem;
+    margin: 1rem auto 2rem auto;
+    padding:1rem 2rem;
+    font-family: inherit;
+    font-size: 1rem;
+    
+}
+button:focus{
+  outline: silver;
+}
+
+#output{
+    box-sizing: border-box;
+    width: 85%;
+    min-height: 15vh;
+    max-height: 20vh;
+    overflow: scroll;
+    margin: 0rem  auto 2rem auto;
+    font-size: 1.25rem;
+    border: 1px solid black;
+    padding: 0.5rem;
+    color: #4361ee;
+    background-color:#dee2e6;
+    border: none;
+}
+
+.txt-message{
+    
+    border-radius:0.5rem;
+    padding:1rem 2rem;
+    font-family: inherit;
+    font-size: 1rem;
+    text-align: center;
+    margin: 0rem auto 0.5rem auto;
+    width: 60%;
+    background-color: #f9c74f;
+    color: #4361ee;
+    font-weight: bold;
+  
+
+}
+
+
+footer{
+  background-color:#1D4ED8;
+  padding: 0.5rem 0.5rem;
+  text-align: center;
+  color:whitesmoke;
+  border-top-right-radius: 1rem;
+ 
+}
+
+.footer .footer-header{
+  font-weight: bold;
+  font-size: large;
+  margin: 0rem auto 0.5rem auto;
+  width: fit-content;
+  background-color: #3a0ca3;
+  
+}
+
+.footer .link {
+  color: whitesmoke;
+}
+
+.footer .footer-para{
+  text-align: justify;
+}
+
+.list-non-bullet {
+  list-style: none;
+
+}
+.list-item-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+
+.link {
+  box-sizing: border-box;
+text-decoration: none; /*removes undreline foer link*/
+padding: 0.5rem 1rem;
+margin-top: 1rem;
+margin-bottom: 1rem;
+}

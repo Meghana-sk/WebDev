@@ -1,0 +1,32 @@
+:root {
+  --veryLightBlue: #778da9;
+  --lightBlue: #415a77;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container {
+  display: block;
+}
+
+input {
+  padding: 1rem;
+  width: 80%;
+}
+
+h2 {
+  box-sizing: border-box;
+  align-items: center;
+}
+
+h3 {
+  color: var(--veryLightBlue);
+}
+
+body {
+  background-color: #001524;
+  color: #f7f7ff;
+}
